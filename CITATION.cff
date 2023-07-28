@@ -1,0 +1,39 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Smart and Distributed Key-Value Store '
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Juan
+    family-names: Aznar Poveda
+    email: juan.aznar-poveda@uibk.ac.at
+    affiliation: University of Innsbruck
+    orcid: 'https://orcid.org/0000-0002-0879-6651'
+  - given-names: Tobias
+    family-names: Pockstaller
+    email: tobias.pockstaller@student.uibk.ac.at
+    affiliation: University of Innsbruck
+  - given-names: Thomas
+    family-names: Fahringer
+    email: thomas.fahringer@uibk.ac.at
+    affiliation: University of Innsbruck
+    orcid: 'https://orcid.org/0000-0003-4293-1228'
+  - email: stefan.pedratscher@uibk.ac.at
+    given-names: Stefan
+    family-names: Pedratscher
+    affiliation: University of Innsbruck
+    orcid: 'https://orcid.org/0000-0002-6164-880X'
+  - email: zahra.najafabadi-samani@uibk.ac.at
+    given-names: Zahra
+    family-names: Najafabadi Samani
+    affiliation: University of Innsbruck
+    orcid: 'https://orcid.org/0000-0001-5182-9087'
+repository-code: 'https://github.com/DistributedSystemsTools/SDKV'
+url: 'https://dps.uibk.ac.at/'
+license: Apache-2.0
+version: v.0.1
+date-released: '2023-09-30'
