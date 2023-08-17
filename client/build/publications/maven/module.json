@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "Apollo-Tools-DML",
+    "module": "client",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "client-1.0-SNAPSHOT.jar",
+          "url": "client-1.0-SNAPSHOT.jar",
+          "size": 47684,
+          "sha512": "942f38ccbaccc38a2587ff707b7b556fbc92c546c6a0380ebe64c9cd6e67b04f9b80c26e7a984fec222813ae1870a86c002294ecb84fbd00e0a359e67ee1dba3",
+          "sha256": "6b8e010facde74b05e3b155d0c0bfff1689c5414ed4ba31c518d4bba5c021f92",
+          "sha1": "4235c4a1e53ce70ecb6f28adc69bec62a3c8ba72",
+          "md5": "61b1e1f3cf04ab8e0a5618e55001db58"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.5"
+          }
+        },
+        {
+          "group": "io.vertx",
+          "module": "vertx-core",
+          "version": {
+            "requires": "4.3.7"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "de.undercouch",
+          "module": "bson4jackson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "client-1.0-SNAPSHOT.jar",
+          "url": "client-1.0-SNAPSHOT.jar",
+          "size": 47684,
+          "sha512": "942f38ccbaccc38a2587ff707b7b556fbc92c546c6a0380ebe64c9cd6e67b04f9b80c26e7a984fec222813ae1870a86c002294ecb84fbd00e0a359e67ee1dba3",
+          "sha256": "6b8e010facde74b05e3b155d0c0bfff1689c5414ed4ba31c518d4bba5c021f92",
+          "sha1": "4235c4a1e53ce70ecb6f28adc69bec62a3c8ba72",
+          "md5": "61b1e1f3cf04ab8e0a5618e55001db58"
+        }
+      ]
+    }
+  ]
+}
